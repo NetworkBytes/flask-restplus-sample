@@ -1,0 +1,14 @@
+[[source]]
+name = "nexus"
+url = "http://nexus:8081/pypi-proxy"
+verify_ssl = false
+
+[dev-packages]
+
+[packages]
+flask = "*"
+flask-restplus = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "3.7"
